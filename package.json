@@ -1,17 +1,14 @@
 {
   "name": "lipogram",
-  "description": "Put A Description Here!",
+  "description": "Detects writing that excludes one or more letters.",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "browserify index.js -o bundle.js",
-    "watch": "watchify index.js -o bundle.js --debug --verbose"
+    "test": "node test.js"
   },
   "devDependencies": {
     "array-equal": "^1.0.0",
-    "browserify": "*",
-    "tape": "^4.0.0",
-    "watchify": "*"
+    "tape": "^4.0.0"
   },
   "keywords": [
     "lipogram",
@@ -20,5 +17,13 @@
   ],
   "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coleww/lipogram"
+  },
+  "bugs": {
+    "url": "https://github.com/coleww/lipogram/issues"
+  },
+  "homepage": "https://github.com/coleww/lipogram"
 }
