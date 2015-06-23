@@ -1,4 +1,5 @@
 var tap = require('tape')
+var equals = require('array-equal')
 var lipogram = require('./')
 
 var sample = 'Writing that excludes one or more letters.'
@@ -22,7 +23,7 @@ tap.test('does the prisoner/macao thing', function(t){
 
 tap.test('returns lipogrammable letters', function(t){
   t.plan(1)
-  t.equal(lipogram('aceimnorsuvwxz'), ['b', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'p', 'q', 't', 'y'])
+  t.ok(equals(lipogram('aceimnorsuvwxz'), ['b', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'p', 'q', 't', 'y']))
 })
 
 tap.test('returns false if no lipogrammable letters', function(t){
