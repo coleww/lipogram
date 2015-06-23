@@ -1,0 +1,23 @@
+{
+  "name": "lipogram",
+  "description": "Put A Description Here!",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js -o bundle.js",
+    "watch": "watchify index.js -o bundle.js --debug --verbose"
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "tape": "^4.0.0",
+    "watchify": "*"
+  },
+  "keywords": [
+    "lipogram",
+    "oulipo",
+    "poetry"
+  ],
+  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
+  "license": "MIT",
+  "dependencies": {}
+}
