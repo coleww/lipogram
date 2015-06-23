@@ -17,10 +17,8 @@ module.exports = function(string, _c){
   })
 
   if(constraint){
-    constraint.forEach(function(letter){
-
-      // return map[letter] ? result = false : true
-      if(map[letter]) result = false
+    constraint.every(function(letter){
+      return map[letter] ? result = false : true
     })
   } else {
     result = 'abcdefghijklmnopqrstuvwxyz'.split("").filter(function(letter){return !map[letter]})
