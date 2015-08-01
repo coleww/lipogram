@@ -3,7 +3,9 @@ lipogram
 
 an [oulipian](https://en.wikipedia.org/wiki/Oulipo#Constraints) poetry detector.
 
-[![NPM](https://nodei.co/npm/lipogram.png)](https://nodei.co/npm/lipogram/)
+[![NPM](https://nodei.co/npm/lipogram.png)](https://nodei.co/npm/lipogram/)[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
+[![Build Status](https://secure.travis-ci.org/coleww/lipogram.png)](http://travis-ci.org/coleww/lipogram)
 
 [lipogram](https://en.wikipedia.org/wiki/Lipogram):
 ```
